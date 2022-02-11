@@ -1,0 +1,11 @@
+.header h3 {
+  margin-top: 0;
+  font-weight: 900;
+  color: rgb(180, 57, 57);
+  display: flex;
+  align-items: center;
+}
+.headerh1 {
+  font-size: 42px;
+  margin: 0;
+}

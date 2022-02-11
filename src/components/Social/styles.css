@@ -1,0 +1,45 @@
+.socials {
+  width: 100%;
+  background-color: royalblue;
+  padding: 100px 0;
+}
+.social-squre {
+  width: 70px;
+  height: 70px;
+  background-color: red;
+  position: relative;
+  margin: 10px;
+}
+.social-squre svg {
+  width: 30px;
+  color: white;
+  position: relative;
+  height: 30px;
+  top: 28%;
+}
+.socials h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-squre span:first-child,
+.social-squre span:last-child {
+  width: 64%;
+  margin-top: 10px;
+  z-index: 10;
+  left: -12px;
+  height: 5px;
+  transform: rotatez(-45deg);
+  background-color: royalblue;
+  position: absolute;
+}
+.social-squre span:last-child {
+  bottom: 9px;
+  right: -12px;
+  left: unset;
+}
+.squares-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

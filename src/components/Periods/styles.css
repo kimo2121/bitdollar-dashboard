@@ -1,0 +1,66 @@
+.periods {
+  display: flex;
+  margin-left: 10px;
+}
+.periods span {
+  width: 5px;
+  height: 10px;
+  background-color: rgb(87, 168, 20);
+  transform: skewX(30deg);
+  margin: 0 2px;
+  display: block;
+}
+
+.periods.reverse {
+  margin-right: 10px;
+  margin-left: 0;
+}
+.periods.reverse span {
+  transform: skewX(-30deg);
+}
+.periods span:nth-child(2) {
+  opacity: 0.9;
+}
+.periods span:nth-child(3) {
+  opacity: 0.8;
+}
+.periods span:nth-child(4) {
+  opacity: 0.7;
+}
+.periods span:nth-child(5) {
+  opacity: 0.6;
+}
+.periods span:nth-child(6) {
+  opacity: 0.5;
+}
+.periods span:nth-child(7) {
+  opacity: 0.4;
+}
+.periods span:nth-child(8) {
+  opacity: 0.3;
+}
+
+.periods.reverse span:nth-child(8) {
+  opacity: 1;
+}
+.periods.reverse span:nth-child(7) {
+  opacity: 0.9;
+}
+.periods.reverse span:nth-child(6) {
+  opacity: 0.8;
+}
+.periods.reverse span:nth-child(5) {
+  opacity: 0.7;
+}
+.periods.reverse span:nth-child(4) {
+  opacity: 0.6;
+}
+.periods.reverse span:nth-child(3) {
+  opacity: 0.5;
+}
+.periods.reverse span:nth-child(2) {
+  opacity: 0.4;
+}
+.periods.reverse span:nth-child(1) {
+  opacity: 0.3;
+}

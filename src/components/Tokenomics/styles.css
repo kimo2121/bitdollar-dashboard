@@ -1,0 +1,86 @@
+.tokenomics {
+  background-color: rgb(55, 55, 172);
+}
+
+.tokenomics-container {
+  width: 1140px;
+  margin: 0 auto;
+  text-align: left;
+}
+.name-percent,
+.numbers-projects-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.numbers-projects-container {
+  margin-top: 50px;
+}
+.numbers-projects h1 {
+  margin: 0;
+  font-size: 42px;
+}
+.numbers-projects p {
+  color: white;
+  font-weight: 700;
+  margin: 0;
+}
+.numbers-projects {
+  width: 270px;
+}
+.name-percent p:first-child {
+  color: gray;
+  margin-top: 0;
+  font-weight: 500;
+}
+.name-percent p:last-child {
+  color: white;
+  font-weight: 700;
+  margin: 0;
+}
+.name-percent div {
+  margin-bottom: 20px;
+  /* width: 90px; */
+}
+.blocks-container {
+  display: flex;
+  align-items: center;
+}
+.blocks:first-child {
+  background-color: rgb(255, 155, 155);
+  width: 120px;
+  height: 70px;
+}
+
+.blocks:nth-child(2) {
+  background-color: rgb(255, 138, 138);
+  width: 130px;
+  height: 70px;
+}
+.blocks:nth-child(3) {
+  background-color: rgb(255, 126, 126);
+  width: 140px;
+  height: 70px;
+}
+.blocks:nth-child(4) {
+  background-color: rgb(255, 111, 111);
+  width: 150px;
+  height: 70px;
+}
+.blocks:nth-child(5) {
+  background-color: rgb(255, 94, 94);
+  width: 160px;
+  height: 70px;
+}
+.blocks:nth-child(6) {
+  background-color: rgb(255, 64, 64);
+  width: 170px;
+  height: 70px;
+}
+
+.blocks:last-child {
+  background-color: red;
+  width: 180px;
+  height: 70px;
+}

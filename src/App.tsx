@@ -1,24 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
+import Participate from "./components/Participate/Participate";
+import Tokenomics from "./components/Tokenomics/Tokenomics";
+import Periods from "./components/Periods/Periods";
+import Team from "./components/Team/Team";
+import Partners from "./components/Partners/Partners";
+import Social from "./components/Social/Social";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="banner">
+        <Navbar />
+      </div>
+      <Participate />
+      <Tokenomics />
+      <Team />
+      <Partners />
+      <Social />
     </div>
   );
 }

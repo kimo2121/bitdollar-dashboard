@@ -1,0 +1,55 @@
+.participate {
+  background-color: #74e39a;
+  height: 600px;
+  color: #e3e3e3;
+  padding: 50px 0;
+  box-sizing: border-box;
+}
+.participate-container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.participate-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.participate-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.step1,
+.step2,
+.step3 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 350px;
+  margin: 20px;
+}
+.step1 {
+  margin-left: 0;
+}
+.step3 {
+  margin-right: 0;
+}
+
+.step1 h1,
+.step2 h1,
+.step3 h1 {
+  font-size: 120px;
+  margin: 0;
+  margin-right: 20px;
+  margin-top: -30px;
+}
+.step1 p,
+.step2 p,
+.step3 p {
+  font-size: 20px;
+  font-weight: 500;
+}

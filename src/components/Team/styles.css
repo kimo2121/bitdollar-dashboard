@@ -1,0 +1,31 @@
+.team {
+  margin: 0 auto;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 100px 0;
+}
+.team-header {
+  margin-bottom: 40px;
+}
+.team-header div {
+  display: flex;
+  align-items: center;
+}
+.team-header h1 {
+  margin: 0;
+}
+.team-header div h3 {
+  margin: 0;
+}
+.members {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1120px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}

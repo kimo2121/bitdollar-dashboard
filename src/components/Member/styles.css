@@ -1,0 +1,19 @@
+.member-container > img {
+  width: 120px;
+  object-fit: contain !important;
+  height: 120px;
+}
+.member-container {
+  width: 250px;
+  background-color: rgba(124, 218, 124, 0.315);
+  margin: 10px;
+  padding-top: 30px;
+  height: 300px;
+  box-sizing: border-box;
+}
+.member-container p {
+  margin: 0;
+}
+.member-container h2 {
+  margin: 0;
+}
