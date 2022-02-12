@@ -11,7 +11,7 @@ const partnersImages = [bsc, polk, ether, sol, poly, kusama];
 
 const Partners = () => {
   return (
-    <div className="partners">
+    <div id="Partners" className="partners">
       <h2>
         <Periods reverse={true} />
         OUR PARTNERS

@@ -30,12 +30,37 @@
   font-weight: 700;
   font-size: 20px;
   color: #313131;
+  margin: 0 auto;
   margin-top: 50px;
   outline: none;
   border: none;
+  display: block;
+  width: fit-content;
+  text-decoration: none;
   position: relative;
   background-color: #b5f904;
   z-index: 10;
+}
+.alien-jet2,
+.alien-jet3,
+.alien-jet4 {
+  display: none;
+}
+.alien-jet,
+.alien-jet2,
+.alien-jet3,
+.alien-jet4 {
+  width: 300px;
+  height: 120px;
+  position: absolute;
+  top: 400px;
+  /* right: 0; */
+}
+.alien-jet4,
+.alien-jet3 {
+  width: 200px;
+  height: 80px;
+  top: 500px;
 }
 .team-social-partners {
   background-image: url(/src/assets/bk8.jpg);
@@ -71,6 +96,22 @@
   margin: 0;
   margin-top: 20px;
 }
+@media screen and (max-width: 1200px) {
+  .alien-jet {
+    display: none;
+  }
+  .alien-jet2 {
+    display: block;
+  }
+}
+@media screen and (max-width: 900px) {
+  .alien-jet2 {
+    display: none;
+  }
+  .alien-jet3 {
+    display: block;
+  }
+}
 @media screen and (max-width: 576px) {
   .banner-title h1 {
     font-size: 24px;
@@ -82,5 +123,13 @@
   .explore-btn {
     font-size: 18px;
     padding: 10px 15px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .alien-jet3 {
+    display: none;
+  }
+  .alien-jet4 {
+    display: block;
   }
 }

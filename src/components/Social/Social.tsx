@@ -15,55 +15,27 @@ const Social = () => {
         <Periods reverse={false} />
       </h2>
       <div className="squares-container">
-        <div className="social-squre">
-          <span></span>
-          <a href="">
-            <FiTwitter />
-          </a>
-          <span></span>
-        </div>
-        <div className="social-squre">
-          <span></span>
-          <a href="">
-            <FaTelegramPlane />
-          </a>
-          <span></span>
-        </div>
-        <div className="social-squre">
-          <span></span>
-          <a href="">
-            <SiMedium />
-          </a>
-          <span></span>
-        </div>
-        <div className="social-squre">
-          <span></span>
-          <a href="">
-            <FaDiscord />
-          </a>
-          <span></span>
-        </div>
-        <div className="social-squre">
-          <span></span>
-          <a href="">
-            <FiLinkedin />
-          </a>
-          <span></span>
-        </div>
-        <div className="social-squre">
-          <span></span>
-          <a href="">
-            <FaInstagram />
-          </a>
-          <span></span>
-        </div>
-        <div className="social-squre">
-          <span></span>
-          <a href="">
-            <AiOutlineFacebook />
-          </a>
-          <span></span>
-        </div>
+        <a className="social-squre" href="#">
+          <FiTwitter />
+        </a>
+        <a className="social-squre" href="#">
+          <FaTelegramPlane />
+        </a>
+        <a className="social-squre" href="#">
+          <SiMedium />
+        </a>
+        <a className="social-squre" href="#">
+          <FaDiscord />
+        </a>
+        <a className="social-squre" href="#">
+          <FiLinkedin />
+        </a>
+        <a className="social-squre" href="#">
+          <FaInstagram />
+        </a>
+        <a className="social-squre" href="#">
+          <AiOutlineFacebook />
+        </a>
       </div>
     </div>
   );

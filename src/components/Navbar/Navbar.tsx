@@ -3,6 +3,7 @@ import "./navbar.css";
 import { Link } from "react-scroll";
 import { HiMenu } from "react-icons/hi";
 import logo from "../../assets/logo.png";
+import BasicModal from "../Modal/Modal";
 
 const Navbar: React.FC = () => {
   const [menu, setMenu] = useState(false);
@@ -35,20 +36,25 @@ const Navbar: React.FC = () => {
           <a href="/">
             <img src={logo} alt="" />
           </a>
-          <Link activeClass="active" smooth={true} duration={800} to="Home">
-            Home
+          <Link smooth={true} duration={800} to="Features">
+            Features
           </Link>
-          <Link activeClass="active" smooth={true} duration={800} to="About">
-            IGOs
+          <Link smooth={true} duration={800} to="Participate">
+            Participate
           </Link>
-          <Link activeClass="active" smooth={true} duration={800} to="RoadMap">
-            Staking
+          <Link smooth={true} duration={800} to="Tokenomics">
+            Tokenomics
           </Link>
-          <Link activeClass="active" smooth={true} duration={800} to="Team">
-            Pages
+          <Link smooth={true} duration={800} to="Team">
+            Team
+          </Link>
+          <Link smooth={true} duration={800} to="Partners">
+            Partners
           </Link>
         </div>
-        <button className="connect-btn">Enter App</button>
+        <a href="https://app.bitdollars.io/" className="connect-btn">
+          Enter App
+        </a>
       </div>
       <div className="slide-menu">
         <div className="slide-outter">
@@ -56,55 +62,16 @@ const Navbar: React.FC = () => {
             <a href="/">
               <img src={logo} alt="" />
             </a>
-            <button onClick={toggleAccordion} className="menu-slide-btn">
+            <BasicModal />
+            {/* <button onClick={toggleAccordion} className="menu-slide-btn">
               <HiMenu
                 className={menu ? "slide-menu-icon active" : "slide-menu-icon"}
               />
-            </button>
+            </button> */}
           </div>
-          <button className="connect-btn">Enter App</button>
-        </div>
-        <div
-          ref={content}
-          style={{ maxHeight: `${setHeight}` }}
-          className="accordion__content"
-        >
-          <Link
-            activeClass="active"
-            onClick={toggleAccordion}
-            smooth={true}
-            duration={800}
-            to="Home"
-          >
-            Home
-          </Link>
-          <Link
-            activeClass="active"
-            onClick={toggleAccordion}
-            smooth={true}
-            duration={800}
-            to="About"
-          >
-            IGOs
-          </Link>
-          <Link
-            activeClass="active"
-            onClick={toggleAccordion}
-            smooth={true}
-            duration={800}
-            to="RoadMap"
-          >
-            Staking
-          </Link>
-          <Link
-            activeClass="active"
-            onClick={toggleAccordion}
-            smooth={true}
-            duration={800}
-            to="Team"
-          >
-            Pages
-          </Link>
+          <a href="https://app.bitdollars.io/" className="connect-btn">
+            Enter App
+          </a>
         </div>
       </div>
     </div>

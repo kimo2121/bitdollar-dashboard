@@ -91,7 +91,7 @@ const team: data["Data"] = [
 ];
 const Team = () => {
   return (
-    <div className="team">
+    <div id="Team" className="team">
       <div className="team-container">
         <div className="team-header">
           <div>

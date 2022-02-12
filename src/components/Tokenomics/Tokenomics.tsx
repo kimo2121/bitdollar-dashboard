@@ -45,7 +45,7 @@ const Tokenomics = () => {
   const web = window.innerWidth > 1200;
   const mob = window.innerWidth <= 1200;
   return (
-    <div className="tokenomics">
+    <div id="Tokenomics" className="tokenomics">
       <Backdrop />
       <div className="tokenomics-container">
         <Header name="STATISTICS" desc="TOKENOMICS" />

@@ -5,14 +5,14 @@ import { IoIosArrowForward } from "react-icons/io";
 import Features from "../Features/Features";
 const Participate = () => {
   return (
-    <div className="participate">
+    <div id="Participate" className="participate">
       <Features />
       <div className="participate-container">
         <div className="participate-top">
           <Header name="3 EASY STEPS" desc="HOW TO PARTICIPATE" />
-          <button className="verify-kyc">
+          {/* <button className="verify-kyc">
             VERIFY KYC <IoIosArrowForward />
-          </button>
+          </button> */}
         </div>
         <div className="participate-bottom">
           <div className="step1">
