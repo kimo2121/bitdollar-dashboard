@@ -16,30 +16,66 @@ const Features = () => {
         <Periods reverse={false} />
       </div>
       <div className="sub-features">
-        <a href="#">
-          <img src={swap} alt="" />
-          <h2>SWAP</h2>
-        </a>
-        |
-        <a href="#">
-          <Liquidity />
-          <h2>LIQUIDITY</h2>
-        </a>
-        |
-        <a href="#">
-          <img src={farming} alt="" />
-          <h2>FARM</h2>
-        </a>
-        |
-        <a href="#">
-          <img src={pool} alt="" />
-          <h2>POOL</h2>
-        </a>
-        |
-        <a href="#">
-          <img src={lottery} alt="" />
-          <h2>LOTTERY</h2>
-        </a>
+        <div>
+          <a href="#">
+            <img src={swap} alt="" />
+            <h2>SWAP</h2>
+          </a>
+          <span>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
+            ducimus adipisci, exercitationem laborum earum veniam minus unde
+            alias sapiente temporibus accusamus praesentium necessitatibus animi
+            incidunt, fugit, nisi recusandae similique cumque.
+          </span>
+        </div>
+        <div>
+          <a href="#">
+            <Liquidity />
+            <h2>LIQUIDITY</h2>
+          </a>
+          <span>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
+            ducimus adipisci, exercitationem laborum earum veniam minus unde
+            alias sapiente temporibus accusamus praesentium necessitatibus animi
+            incidunt, fugit, nisi recusandae similique cumque.
+          </span>
+        </div>
+        <div>
+          <a href="#">
+            <img src={farming} alt="" />
+            <h2>FARM</h2>
+          </a>
+          <span>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
+            ducimus adipisci, exercitationem laborum earum veniam minus unde
+            alias sapiente temporibus accusamus praesentium necessitatibus animi
+            incidunt, fugit, nisi recusandae similique cumque.
+          </span>
+        </div>
+        <div>
+          <a href="#">
+            <img src={pool} alt="" />
+            <h2>POOL</h2>
+          </a>
+          <span>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
+            ducimus adipisci, exercitationem laborum earum veniam minus unde
+            alias sapiente temporibus accusamus praesentium necessitatibus animi
+            incidunt, fugit, nisi recusandae similique cumque.
+          </span>
+        </div>
+        <div>
+          <a href="#">
+            <img src={lottery} alt="" />
+            <h2>LOTTERY</h2>
+          </a>
+          <span>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
+            ducimus adipisci, exercitationem laborum earum veniam minus unde
+            alias sapiente temporibus accusamus praesentium necessitatibus animi
+            incidunt, fugit, nisi recusandae similique cumque.
+          </span>
+        </div>
       </div>
     </div>
   );

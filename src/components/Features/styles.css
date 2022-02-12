@@ -13,6 +13,7 @@
 }
 .features > div > h3 {
   color: #e3e3e3;
+  margin-top: 0;
   font-size: 36px;
 }
 
@@ -22,14 +23,33 @@
 }
 
 .sub-features img {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   object-fit: contain;
 }
 .sub-features a {
   text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .sub-features svg {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
+}
+.sub-features div {
+  width: 220px;
+  padding: 8px;
+  box-sizing: border-box;
+  margin: 8px;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  background-color: #30663081;
+  border-radius: 8px;
+}
+.sub-features div span {
 }
