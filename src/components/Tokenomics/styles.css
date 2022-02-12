@@ -1,22 +1,35 @@
 .tokenomics {
-  background-color: rgb(55, 55, 172);
+  padding: 100px 0;
+  background-image: url(/src/assets/bk2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  filter: grayscale(40%);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .tokenomics-container {
   width: 1140px;
   margin: 0 auto;
+  position: relative;
+  z-index: 10;
+  padding-left: 20px;
+  box-sizing: border-box;
   text-align: left;
 }
 .name-percent,
 .numbers-projects-container {
   display: flex;
   justify-content: flex-start;
+  margin-top: 50px;
+  filter: grayscale(0%);
   align-items: center;
 }
 
-.numbers-projects-container {
-  margin-top: 50px;
-}
 .numbers-projects h1 {
   margin: 0;
   font-size: 42px;
@@ -30,7 +43,7 @@
   width: 270px;
 }
 .name-percent p:first-child {
-  color: gray;
+  color: rgb(255, 123, 0);
   margin-top: 0;
   font-weight: 500;
 }
@@ -41,46 +54,155 @@
 }
 .name-percent div {
   margin-bottom: 20px;
-  /* width: 90px; */
+}
+.name-percent-bar {
+  position: relative;
+  filter: grayscale(0%) !important;
+  z-index: 10;
+  margin-top: 50px;
 }
 .blocks-container {
   display: flex;
   align-items: center;
 }
+
 .blocks:first-child {
-  background-color: rgb(255, 155, 155);
+  background-color: rgb(143, 116, 90);
   width: 120px;
   height: 70px;
 }
 
 .blocks:nth-child(2) {
-  background-color: rgb(255, 138, 138);
+  background-color: rgb(144, 110, 79);
+
   width: 130px;
   height: 70px;
 }
 .blocks:nth-child(3) {
-  background-color: rgb(255, 126, 126);
+  background-color: rgb(148, 104, 64);
   width: 140px;
   height: 70px;
 }
 .blocks:nth-child(4) {
-  background-color: rgb(255, 111, 111);
+  background-color: rgb(150, 97, 47);
+
   width: 150px;
   height: 70px;
 }
 .blocks:nth-child(5) {
-  background-color: rgb(255, 94, 94);
+  background-color: rgb(150, 91, 35);
+
   width: 160px;
   height: 70px;
 }
 .blocks:nth-child(6) {
-  background-color: rgb(255, 64, 64);
+  background-color: rgb(153, 81, 14);
+
   width: 170px;
   height: 70px;
 }
 
 .blocks:last-child {
-  background-color: red;
+  background-color: rgb(148, 71, 0);
   width: 180px;
   height: 70px;
+}
+.numbers-projects h1 {
+  color: rgb(255, 123, 0);
+}
+@media screen and (max-width: 1200px) {
+  .tokenomics-container {
+    width: 950px;
+  }
+  .blocks:first-child {
+    width: 70px;
+  }
+
+  .blocks:nth-child(2) {
+    width: 80px;
+  }
+  .blocks:nth-child(3) {
+    width: 90px;
+  }
+  .blocks:nth-child(4) {
+    width: 100px;
+  }
+  .blocks:nth-child(5) {
+    width: 110px;
+  }
+  .blocks:nth-child(6) {
+    width: 120px;
+  }
+  .blocks:last-child {
+    width: 130px;
+  }
+  .numbers-projects {
+    width: 170px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .name-percent,
+  .numbers-projects-container,
+  .blocks-container {
+    flex-direction: column;
+    text-align: left;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0;
+  }
+  .mob-tokenomics {
+    /* display: flex; */
+    /* width: 100%; */
+  }
+  .name-percent div p:first-child {
+    margin-bottom: 0;
+  }
+  .name-percent-bar {
+    display: flex;
+  }
+  .tokenomics-container {
+    width: 90%;
+  }
+  .blocks:first-child {
+    width: 90px;
+    height: 63px;
+  }
+
+  .blocks:nth-child(2) {
+    height: 63px;
+
+    width: 100px;
+  }
+  .blocks:nth-child(3) {
+    height: 63px;
+
+    width: 110px;
+  }
+  .blocks:nth-child(4) {
+    height: 63px;
+
+    width: 120px;
+  }
+  .blocks:nth-child(5) {
+    height: 63px;
+
+    width: 130px;
+  }
+  .blocks:nth-child(6) {
+    height: 63px;
+
+    width: 140px;
+  }
+  .blocks:last-child {
+    height: 63px;
+
+    width: 150px;
+  }
+  .numbers-projects {
+    width: 90%;
+  }
+  .numbers-projects-container {
+    margin-top: 50px;
+  }
 }

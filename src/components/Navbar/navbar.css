@@ -10,20 +10,27 @@
   padding: 20px 0 20px 0;
   height: 103px;
 }
-
+.web-nav img {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
 .web-nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   width: 1140px;
   align-items: center;
   margin: 0 auto;
 }
 .connect-btn {
-  background-color: #989898;
+  background-color: transparent;
+  border: #b5f904 1px solid;
   padding: 5px 15px;
-  border: none;
-  color: #74e39a;
+  font-size: 22px;
+  font-weight: 500;
+  color: #b5f904;
   outline: none;
+  cursor: pointer;
 }
 .logo.height a {
   font-size: 20px;
@@ -96,7 +103,15 @@
   position: relative;
   z-index: 100000;
   font-size: 30px;
-  color: black;
+  color: white;
+  margin-right: 20px;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+.nav-links img {
+  margin-right: 50px;
 }
 .nav-links a:hover {
   cursor: pointer;
@@ -105,14 +120,21 @@
   text-decoration: none;
 }
 .accordion__content a {
-  color: black;
+  color: white;
   margin: 2vh 0;
   transition: color 0.1s;
+  cursor: pointer;
   letter-spacing: 1px;
 }
-.accordion__content a:hover {
-  color: white;
-  cursor: pointer;
+.slide-outter img {
+  width: 50px;
+  height: 50px;
+  margin-right: 30px;
+}
+.slide-outter div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media screen and (max-width: 1200px) {
   .web-nav {
@@ -146,6 +168,8 @@
   .accordion__content {
     width: 720px;
     margin: 0 auto;
+    box-sizing: border-box;
+    padding-left: 90px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -161,13 +185,10 @@
 @media screen and (max-width: 576px) {
   .accordion__content,
   .slide-outter {
-    width: 90%;
+    width: 100%;
   }
   .mobile-logo a {
     margin-right: 1vw;
     font-size: 16px;
-  }
-  .mobile-logo {
-    width: 70vw;
   }
 }

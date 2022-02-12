@@ -5,7 +5,7 @@
 .periods span {
   width: 5px;
   height: 10px;
-  background-color: rgb(87, 168, 20);
+  background-color: #989898;
   transform: skewX(30deg);
   margin: 0 2px;
   display: block;

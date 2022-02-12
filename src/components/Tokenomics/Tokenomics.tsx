@@ -2,6 +2,7 @@ import React from "react";
 import "./styles.css";
 import Header from "../Header/Header";
 import Periods from "../Periods/Periods";
+import Backdrop from "../Backdrop/Backdrop";
 
 interface dataType {
   Data: {
@@ -41,14 +42,26 @@ const data: dataType["Data"] = [
   },
 ];
 const Tokenomics = () => {
+  const web = window.innerWidth > 1200;
+  const mob = window.innerWidth <= 1200;
   return (
     <div className="tokenomics">
+      <Backdrop />
       <div className="tokenomics-container">
         <Header name="STATISTICS" desc="TOKENOMICS" />
         <div className="name-percent-bar">
           <div className="name-percent">
             {data.map((item, index) => (
-              <div style={{ width: 120 + index * 10 }} key={index}>
+              <div
+                style={{
+                  width: web
+                    ? 120 + index * 10
+                    : mob
+                    ? 70 + index * 10
+                    : undefined,
+                }}
+                key={index}
+              >
                 <p>{item.name}</p>
                 <p>{item.percent}</p>
               </div>

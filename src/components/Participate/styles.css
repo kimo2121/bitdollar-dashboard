@@ -1,8 +1,7 @@
 .participate {
-  background-color: #74e39a;
-  height: 600px;
+  background-color: #313131;
   color: #e3e3e3;
-  padding: 50px 0;
+  padding: 100px 0;
   box-sizing: border-box;
 }
 .participate-container {
@@ -45,11 +44,54 @@
   font-size: 120px;
   margin: 0;
   margin-right: 20px;
+  color: #989898;
   margin-top: -30px;
 }
 .step1 p,
 .step2 p,
 .step3 p {
   font-size: 20px;
+  color: #e3e3e3;
   font-weight: 500;
+}
+.verify-kyc {
+  color: #e3e3e3;
+  border: #989898 1px solid;
+  background-color: transparent;
+  padding: 15px 0;
+  width: 190px;
+  font-size: 22px;
+  font-weight: 500;
+}
+.verify-kyc {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@media screen and (max-width: 1200px) {
+  .participate-container {
+    width: 950px;
+  }
+  .participate-bottom {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .participate-container {
+    width: 750px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .participate-container {
+    width: 90%;
+  }
+  .participate-top {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+  }
+  .verify-kyc {
+    margin-top: 20px;
+  }
 }

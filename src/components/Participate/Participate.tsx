@@ -1,14 +1,18 @@
 import React from "react";
 import Header from "../Header/Header";
 import "./styles.css";
-
+import { IoIosArrowForward } from "react-icons/io";
+import Features from "../Features/Features";
 const Participate = () => {
   return (
     <div className="participate">
+      <Features />
       <div className="participate-container">
         <div className="participate-top">
           <Header name="3 EASY STEPS" desc="HOW TO PARTICIPATE" />
-          <div></div>
+          <button className="verify-kyc">
+            VERIFY KYC <IoIosArrowForward />
+          </button>
         </div>
         <div className="participate-bottom">
           <div className="step1">

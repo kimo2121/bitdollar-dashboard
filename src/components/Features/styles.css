@@ -1,0 +1,22 @@
+.features {
+  position: relative;
+  z-index: 15;
+  box-sizing: border-box;
+  margin-bottom: 100px;
+  background-color: #313131;
+}
+.features > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.features > div > h3 {
+  color: #e3e3e3;
+  font-size: 36px;
+}
+
+.sub-features h2 {
+  color: #944700;
+  margin: 15px;
+}

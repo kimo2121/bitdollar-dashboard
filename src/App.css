@@ -8,5 +8,79 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 1000px;
+  position: relative;
   filter: grayscale(40%);
+}
+
+.banner h1,
+.banner p {
+  color: #e3e3e3;
+  position: relative;
+  z-index: 10;
+  margin: 0;
+}
+.banner p {
+  margin-top: 20px;
+}
+.banner-title {
+  margin-top: 200px;
+}
+.explore-btn {
+  padding: 20px 30px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #313131;
+  margin-top: 50px;
+  outline: none;
+  border: none;
+  position: relative;
+  background-color: #b5f904;
+  z-index: 10;
+}
+.team-social-partners {
+  background-image: url(/src/assets/bk8.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  filter: grayscale(40%);
+}
+.footer {
+  padding: 20px 0;
+  margin-top: 50px;
+}
+.footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer img {
+  width: 90px;
+  margin-bottom: 10px;
+  height: 90px;
+}
+.footer a {
+  color: #e3e3e3;
+  margin: 0 8px;
+  font-style: 18px;
+  text-decoration: none;
+}
+.footer p {
+  color: #e3e3e3;
+  margin: 0;
+  margin-top: 20px;
+}
+@media screen and (max-width: 576px) {
+  .banner-title h1 {
+    font-size: 24px;
+  }
+  .banner-title p {
+    width: 90%;
+    margin: 20px auto;
+  }
+  .explore-btn {
+    font-size: 18px;
+    padding: 10px 15px;
+  }
 }

@@ -10,6 +10,7 @@ import sixth from "../../assets/6.png";
 import seventh from "../../assets/7.png";
 import eighth from "../../assets/8.png";
 import Member from "../Member/Member";
+import Backdrop from "../Backdrop/Backdrop";
 
 export interface data {
   Data: {
@@ -91,18 +92,20 @@ const team: data["Data"] = [
 const Team = () => {
   return (
     <div className="team">
-      <div className="team-header">
-        <div>
-          <Periods reverse={true} />
-          <h3>TEAM MEMBERS</h3>
-          <Periods reverse={false} />
+      <div className="team-container">
+        <div className="team-header">
+          <div>
+            <Periods reverse={true} />
+            <h3>TEAM MEMBERS</h3>
+            <Periods reverse={false} />
+          </div>
+          <h1>MEET THE CREW</h1>
         </div>
-        <h1>MEET THE CREW</h1>
-      </div>
-      <div className="members">
-        {team.map((item, index) => (
-          <Member key={index} item={item} />
-        ))}
+        <div className="members">
+          {team.map((item, index) => (
+            <Member key={index} item={item} />
+          ))}
+        </div>
       </div>
     </div>
   );

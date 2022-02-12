@@ -2,11 +2,14 @@ import React, { useEffect, useRef, useState } from "react";
 import "./navbar.css";
 import { Link } from "react-scroll";
 import { HiMenu } from "react-icons/hi";
+import logo from "../../assets/logo.png";
+
 const Navbar: React.FC = () => {
   const [menu, setMenu] = useState(false);
   const [setActive, setActiveState] = useState("");
   const [setHeight, setHeightState] = useState("0px");
   const [navbar, setNavbar] = useState(false);
+
   const changeHeight = (): void => {
     if (window.scrollY > 103) {
       setNavbar(true);
@@ -29,6 +32,9 @@ const Navbar: React.FC = () => {
     <div className="navbar">
       <div className="web-nav">
         <div className="nav-links">
+          <a href="/">
+            <img src={logo} alt="" />
+          </a>
           <Link activeClass="active" smooth={true} duration={800} to="Home">
             Home
           </Link>
@@ -46,12 +52,17 @@ const Navbar: React.FC = () => {
       </div>
       <div className="slide-menu">
         <div className="slide-outter">
-          <button onClick={toggleAccordion} className="menu-slide-btn">
-            <HiMenu
-              className={menu ? "slide-menu-icon active" : "slide-menu-icon"}
-            />
-          </button>
-          <button className="connect-btn">Connect Wallet</button>
+          <div>
+            <a href="/">
+              <img src={logo} alt="" />
+            </a>
+            <button onClick={toggleAccordion} className="menu-slide-btn">
+              <HiMenu
+                className={menu ? "slide-menu-icon active" : "slide-menu-icon"}
+              />
+            </button>
+          </div>
+          <button className="connect-btn">Enter App</button>
         </div>
         <div
           ref={content}

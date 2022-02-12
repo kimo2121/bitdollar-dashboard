@@ -1,11 +1,16 @@
 .header h3 {
   margin-top: 0;
   font-weight: 900;
-  color: rgb(180, 57, 57);
+  color: #b5f904;
   display: flex;
   align-items: center;
 }
-.headerh1 {
+.header h1 {
   font-size: 42px;
+  color: #e3e3e3;
   margin: 0;
+}
+.header {
+  position: relative;
+  z-index: 10;
 }

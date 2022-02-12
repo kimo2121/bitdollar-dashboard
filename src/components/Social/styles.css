@@ -1,12 +1,13 @@
 .socials {
   width: 100%;
-  background-color: royalblue;
-  padding: 100px 0;
+  padding: 50px 0;
+  position: relative;
+  z-index: 10;
 }
 .social-squre {
   width: 70px;
   height: 70px;
-  background-color: red;
+  background-color: #313131;
   position: relative;
   margin: 10px;
 }
@@ -19,6 +20,7 @@
 }
 .socials h2 {
   display: flex;
+  color: #e3e3e3;
   justify-content: center;
   align-items: center;
 }
@@ -30,7 +32,7 @@
   left: -12px;
   height: 5px;
   transform: rotatez(-45deg);
-  background-color: royalblue;
+  background-color: transparent;
   position: absolute;
 }
 .social-squre span:last-child {
@@ -42,4 +44,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media screen and (max-width: 1200px) {
+  .squares-container {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .socials h2 {
+    font-size: 20px;
+  }
 }
