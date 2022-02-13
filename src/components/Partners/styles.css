@@ -19,5 +19,7 @@
 }
 .part-container img {
   width: 90px;
+}
+.part-container a {
   margin: 20px;
 }

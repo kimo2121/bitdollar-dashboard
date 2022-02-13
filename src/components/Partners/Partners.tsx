@@ -19,7 +19,9 @@ const Partners = () => {
       </h2>
       <div className="part-container">
         {partnersImages.map((item, index) => (
-          <img key={index} src={item} alt="" />
+          <a href="#">
+            <img key={index} src={item} alt="" />
+          </a>
         ))}
       </div>
     </div>
