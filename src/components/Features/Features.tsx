@@ -16,66 +16,71 @@ const Features = () => {
         <Periods reverse={false} />
       </div>
       <div className="sub-features">
-        <div>
-          <a href="#">
+        <a href="#">
+          <div>
             <img src={swap} alt="" />
             <h2>SWAP</h2>
-          </a>
-          <span>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            ducimus adipisci, exercitationem laborum earum veniam minus unde
-            alias sapiente temporibus accusamus praesentium necessitatibus animi
-            incidunt, fugit, nisi recusandae similique cumque.
-          </span>
-        </div>
-        <div>
-          <a href="#">
+            <span>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Architecto ducimus adipisci, exercitationem laborum earum veniam
+              minus unde alias sapiente temporibus accusamus praesentium
+              necessitatibus animi incidunt, fugit, nisi recusandae similique
+              cumque.
+            </span>
+          </div>
+        </a>
+        <a href="#">
+          <div>
             <Liquidity />
             <h2>LIQUIDITY</h2>
-          </a>
-          <span>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            ducimus adipisci, exercitationem laborum earum veniam minus unde
-            alias sapiente temporibus accusamus praesentium necessitatibus animi
-            incidunt, fugit, nisi recusandae similique cumque.
-          </span>
-        </div>
-        <div>
-          <a href="#">
+            <span>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Architecto ducimus adipisci, exercitationem laborum earum veniam
+              minus unde alias sapiente temporibus accusamus praesentium
+              necessitatibus animi incidunt, fugit, nisi recusandae similique
+              cumque.
+            </span>
+          </div>
+        </a>
+        <a href="#">
+          <div>
             <img src={farming} alt="" />
             <h2>FARM</h2>
-          </a>
-          <span>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            ducimus adipisci, exercitationem laborum earum veniam minus unde
-            alias sapiente temporibus accusamus praesentium necessitatibus animi
-            incidunt, fugit, nisi recusandae similique cumque.
-          </span>
-        </div>
-        <div>
-          <a href="#">
+            <span>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Architecto ducimus adipisci, exercitationem laborum earum veniam
+              minus unde alias sapiente temporibus accusamus praesentium
+              necessitatibus animi incidunt, fugit, nisi recusandae similique
+              cumque.
+            </span>
+          </div>
+        </a>
+        <a href="#">
+          <div>
             <img src={pool} alt="" />
             <h2>POOL</h2>
-          </a>
-          <span>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            ducimus adipisci, exercitationem laborum earum veniam minus unde
-            alias sapiente temporibus accusamus praesentium necessitatibus animi
-            incidunt, fugit, nisi recusandae similique cumque.
-          </span>
-        </div>
-        <div>
-          <a href="#">
+            <span>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Architecto ducimus adipisci, exercitationem laborum earum veniam
+              minus unde alias sapiente temporibus accusamus praesentium
+              necessitatibus animi incidunt, fugit, nisi recusandae similique
+              cumque.
+            </span>
+          </div>
+        </a>
+        <a href="#">
+          <div>
             <img src={lottery} alt="" />
             <h2>LOTTERY</h2>
-          </a>
-          <span>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            ducimus adipisci, exercitationem laborum earum veniam minus unde
-            alias sapiente temporibus accusamus praesentium necessitatibus animi
-            incidunt, fugit, nisi recusandae similique cumque.
-          </span>
-        </div>
+            <span>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Architecto ducimus adipisci, exercitationem laborum earum veniam
+              minus unde alias sapiente temporibus accusamus praesentium
+              necessitatibus animi incidunt, fugit, nisi recusandae similique
+              cumque.
+            </span>
+          </div>
+        </a>
       </div>
     </div>
   );
