@@ -1,0 +1,19 @@
+.border-divider::before {
+  content: "";
+  position: absolute;
+  left: -27px;
+  top: 0;
+  display: inline-block;
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+}
+.timer-container {
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+.timer-mint-container {
+  /* margin-top: 20vh; */
+  background-color: #313131;
+  padding: 50px 0;
+}

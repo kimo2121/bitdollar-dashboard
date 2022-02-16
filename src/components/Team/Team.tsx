@@ -89,6 +89,7 @@ const team: data["Data"] = [
     twitter: "",
   },
 ];
+
 const Team = () => {
   return (
     <div id="Team" className="team">

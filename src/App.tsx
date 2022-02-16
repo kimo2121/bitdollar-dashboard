@@ -12,7 +12,8 @@ import logo from "./assets/logo.png";
 import crystal from "./assets/crystal.png";
 import alienjet from "./assets/alienjet.png";
 import Features from "./components/Features/Features";
-
+import Timer from "../src/components/Timer/Timer";
+import RoadMap from "./components/RoadMap/RoadMap";
 function App() {
   const [move, setMove] = useState(1);
   const [posY, setPosY] = useState(1);
@@ -97,12 +98,18 @@ function App() {
           </a>
         </div>
       </div>
+      <Timer mintStartAt={1645500654} />
       <Participate />
       <Tokenomics />
+      <RoadMap />
       <div className="team-social-partners">
         <Backdrop />
         <Team />
         <Partners />
+        <div className="email">
+          <h1>Enter your email to receive Airdrops</h1>
+          <input type="text" placeholder="Enter your email" />
+        </div>
         <Social />
         <div className="footer">
           <img src={logo} alt="" />
