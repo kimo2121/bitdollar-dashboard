@@ -11,6 +11,7 @@ const RowContainer = styled.div`
   width: 700px;
   padding: 50px 0;
   margin: 0 auto;
+  border: 2px solid white;
   border-radius: 10px;
   @media screen and (max-width: 768px) {
     width: 500px;
@@ -35,11 +36,11 @@ const RowContainer = styled.div`
 const Item = styled.div`
   display: flex;
   flex-direction: column;
-  box-shadow: 0px 0px 5px 2px white;
   justify-content: center;
   width: 100px;
   height: 100px;
   padding: 10px;
+  border: 2px solid white;
   background-color: #313131;
   border-radius: 50%;
   @media screen and (max-width: 768px) {
