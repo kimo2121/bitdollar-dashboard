@@ -109,6 +109,7 @@ function App() {
         <div className="email">
           <h1>Enter your email to receive Airdrops</h1>
           <input type="text" placeholder="Enter your email" />
+          <button className="submit-email">Send</button>
         </div>
         <Social />
         <div className="footer">
